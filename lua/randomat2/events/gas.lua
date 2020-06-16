@@ -10,6 +10,7 @@ potatoTable = {}
 
 EVENT.Title = "Bad Gas"
 EVENT.id = "gas"
+EVENT.Desc = "Grenades periodically spawn underneath players"
 
 function EVENT:Begin()
 	if GetConVar("randomat_gas_discombob"):GetBool() then

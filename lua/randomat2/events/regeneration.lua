@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "We learned how to heal over time, its hard, but definitely possible..."
 EVENT.id = "regeneration"
+EVENT.Desc = "Players heal out of combat"
 --EVENT.Time = 180
 
 CreateConVar("randomat_regeneration_delay", 10, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Changes how long after taking damage you will start to regen health in the event \"We learned how to heal over time\"")

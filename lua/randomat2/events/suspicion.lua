@@ -5,6 +5,7 @@ CreateConVar("randomat_suspicion_chance", 50, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Ch
 EVENT.Title = ""
 EVENT.id = "suspicion"
 EVENT.AltTitle = "A player is acting suspicious"
+EVENT.Desc = "A player is changed to either a Jester or a Traitor"
 
 local ROLE_JESTER = ROLE_JESTER or false
 

@@ -6,6 +6,7 @@ CreateConVar("randomat_barrels_timer", 60, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Time 
 
 EVENT.Title = "Gunpowder, Treason, and Plot"
 EVENT.id = "barrels"
+EVENT.Desc = "Periodically spawns barrels around all players"
 
 local function TriggerBarrels()
 	local plys = {}

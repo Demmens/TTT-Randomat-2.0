@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "One Traitor, One Detective. Everyone else is a Jester. Detective is stronger."
 EVENT.id = "jesters"
+EVENT.Desc = "Detective is given extra hp, everyone else is turned into a jester other than one traitor"
 
 local ROLE_JESTER = ROLE_JESTER or false
 

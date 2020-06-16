@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "No more Falldamage!"
 EVENT.id = "falldamage"
+EVENT.Desc = "All fall damage is negated"
 --EVENT.Time = 120
 
 function EVENT:Begin()

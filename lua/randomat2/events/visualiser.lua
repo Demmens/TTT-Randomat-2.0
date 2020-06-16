@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "I see dead people"
 EVENT.id = "visualiser"
+EVENT.Desc = "Players spawn a visualiser on death"
 
 function EVENT:Begin()
 	hook.Add("PlayerDeath", "RandomatVisualiser", function(ply)

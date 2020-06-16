@@ -4,6 +4,7 @@ CreateConVar("randomat_intensifies_timer", 20, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "C
 
 EVENT.Title = "Randomness Intensifies"
 EVENT.id = "intensifies"
+EVENT.Desc = "Triggers a new randomat event periodically"
 
 function EVENT:Begin()
 	timer.Create("RandomatRandomatTimer", GetConVar("randomat_intensifies_timer"):GetInt() , 0, function()

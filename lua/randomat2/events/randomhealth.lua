@@ -5,6 +5,7 @@ CreateConVar("randomat_randomhealth_lower", 0, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "C
 
 EVENT.Title = "Random Health for everyone!"
 EVENT.id = "randomhealth"
+EVENT.Desc = "Everyone is given a random amount of health"
 
 function EVENT:Begin()
 	for _, ply in pairs(self:GetPlayers(true)) do

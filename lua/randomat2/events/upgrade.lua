@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "An innocent has been upgraded!"
 EVENT.id = "upgrade"
+EVENT.Desc = "An innocent has their role upgraded to Survivalist or Serial Killer"
 local ROLE_SERIALKILLER = ROLE_SERIALKILLER or false
 local ROLE_SURVIVALIST = ROLE_SURVIVALIST or false
 

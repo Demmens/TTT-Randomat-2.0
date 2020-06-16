@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "There's this game my father taught me years ago, it's called \"Switch\""
 EVENT.id = "switch"
+EVENT.Desc = "Periodically switches the position of two random players"
 
 CreateConVar("randomat_switch_timer", 15, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Changes the timer for the event \"it's called \'Switch\'")
 

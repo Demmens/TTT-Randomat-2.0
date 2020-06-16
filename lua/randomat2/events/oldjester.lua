@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "##BringBackOldJester"
 EVENT.id = "oldjester"
+EVENT.Desc = "The jester wins the round when they die"
 
 local ROLE_JESTER = ROLE_JESTER or false
 

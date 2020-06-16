@@ -11,6 +11,7 @@ local ROLE_JESTER = ROLE_JESTER or false
 
 EVENT.Title = "I love democracy, I love the republic."
 EVENT.id = "democracy"
+EVENT.Desc = "Players can vote on who dies"
 
 
 function EVENT:Begin()

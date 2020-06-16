@@ -4,6 +4,7 @@ local EVENT = {}
 
 EVENT.Title = "We've updated our privacy policy."
 EVENT.id = "privacy"
+EVENT.Desc = "Everyone is alerted when someone buys a buy menu item"
 
 util.AddNetworkString("AlertTriggerFinal")
 util.AddNetworkString("alerteventtrigger")

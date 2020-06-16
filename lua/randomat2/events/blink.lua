@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Don't Blink."
 EVENT.id = "blink"
+Event.Desc = "Every player is persued by a weeping angel"
 
 CreateConVar("randomat_blink_cap", 12, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Max angels spawned in \"Don't Blink\", set to 0 to disable")
 CreateConVar("randomat_blink_delay", 0.5, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Delay between angel spawns in \"Don't Blink\"")

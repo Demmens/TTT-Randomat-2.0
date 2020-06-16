@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "RISE FROM YOUR GRAVE"
 EVENT.id = "grave"
+EVENT.Desc = "Players respawn as infected upon dying"
 
 local ROLE_INFECTED = ROLE_INFECTED or false
 

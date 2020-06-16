@@ -8,6 +8,7 @@ util.AddNetworkString("blindeventactive")
 
 EVENT.Title = "All traitors have been blinded for "..GetConVar("randomat_blind_duration"):GetInt().." seconds!"
 EVENT.id = "blind"
+EVENT.Desc = "Periodically blinds traitors"
 
 function RemoveBlind()
 	net.Start("blindeventactive")
@@ -23,7 +24,7 @@ function TriggerBlind()
 	local duration = GetConVar("randomat_blind_duration"):GetInt()
 
 	timer.Create("RandomatBlindTimer", duration, 1, function()
-		TriggerBlind()
+		RemoveBlind()
 	end)
 end
 

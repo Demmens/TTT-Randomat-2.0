@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Malfunction"
 EVENT.id = "malfunction"
+EVENT.Desc = "Players weapons randomly shoot"
 
 CreateConVar("randomat_malfunction_upper", 15, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Changes the upper limit for the random timer for the event \"Malfunction\"")
 CreateConVar("randomat_malfunction_lower", 1, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Changes the lower limit for the random timer for the event \"Malfunction\"")	

@@ -3,6 +3,7 @@ local EVENT = {}
 EVENT.Title = ""
 EVENT.id = "soulmates"
 EVENT.AltTitle = "Soulmates"
+EVENT.Desc = "If your soulmate dies, you die."
 
 CreateConVar("randomat_soulmates_affectall", 0, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Whether everyone should have a soulmate")
 

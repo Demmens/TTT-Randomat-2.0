@@ -19,6 +19,7 @@ table.insert(eventnames, "Freeze in hell, Batman!")
 
 EVENT.Title = table.Random(eventnames)
 EVENT.id = "freeze"
+EVENT.Desc = "All Innocents will periodically Freeze and become immune"
 
 CreateConVar("randomat_freeze_duration", 5, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Duration of the Freeze")
 CreateConVar("randomat_freeze_timer", 30, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Duration of the Freeze")

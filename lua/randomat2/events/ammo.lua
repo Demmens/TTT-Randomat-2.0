@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Infinite Ammo!"
 EVENT.id = "ammo"
+EVENT.Desc = "Gives all players infinite ammo and clip size"
 
 CreateConVar("randomat_ammo_affectbuymenu", 0, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Whether it gives buy menu weapons infinite ammo too.")
 

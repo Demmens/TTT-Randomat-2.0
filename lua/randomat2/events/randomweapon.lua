@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Try your best..."
 EVENT.id = "randomweapon"
+EVENT.Desc = "All players are given undroppable weapons"
 
 function EVENT:Begin()
 	local tbl1 = {}

@@ -4,6 +4,7 @@ CreateConVar("randomat_bees_count", 4,{FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Changes th
 
 EVENT.Title = "NOT THE BEES!"
 EVENT.id = "bees"
+EVENT.Desc = "Spawns bees around every player"
 BeeNPCClass 		= "npc_manhack"
 
 function EVENT:Begin()

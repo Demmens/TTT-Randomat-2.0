@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Choose an Event!"
 EVENT.id = "choose"
+EVENT.Desc = "The event is chosen from a list of random events"
 
 util.AddNetworkString("ChooseEventTrigger")
 util.AddNetworkString("PlayerChoseEvent")

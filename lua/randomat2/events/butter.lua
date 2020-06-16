@@ -5,6 +5,7 @@ CreateConVar("randomat_butter_affectall", 0, {FCVAR_NOTIFY, FCVAR_ARCHIVE} , "Se
 
 EVENT.Title = "Butterfingers"
 EVENT.id = "butter"
+EVENT.Desc = "Players periodically drop their weapons"
 
 function EVENT:Begin()
 	local x = 0

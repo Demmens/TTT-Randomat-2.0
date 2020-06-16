@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "What gamemode is this again?"
 EVENT.id = "murder"
+EVENT.Desc = "Traitors have knives, Detective is given a gun, Innocents have to collect weapons to get a gun."
 
 CreateConVar("randomat_murder_pickups_pct", 1.5, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Weapons required to get a revolver = (ConVarValue*TotalWeapons)/Players")
 CreateConVar("randomat_murder_knifespeed", 1.2, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Player movespeed whilst knife is held.")

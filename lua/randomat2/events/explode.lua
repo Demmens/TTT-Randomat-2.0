@@ -5,6 +5,7 @@ CreateConVar("randomat_explode_timer", 30, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Chang
 EVENT.Title = ""
 EVENT.AltTitle = "A Random Person will explode every "..GetConVar("randomat_explode_timer"):GetInt().." seconds! Watch out! (EXCEPT DETECTIVES)"
 EVENT.id = "explode"
+EVENT.Desc = "A random player will explode until everyone is dead"
 
 function EVENT:Begin()
 

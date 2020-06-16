@@ -4,6 +4,7 @@ local EVENT = {}
 
 EVENT.Title = "So that's it. What, we some kind of suicide squad?"
 EVENT.id = "suicide"
+EVENT.Desc = "All players are given a detonator for another player"
 
 local ROLE_JESTER = ROLE_JESTER or false
 

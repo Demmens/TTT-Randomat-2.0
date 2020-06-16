@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "The 'bar has been raised!"
 EVENT.id = "crowbar"
+EVENT.Desc = "Crowbar damage and push force increased"
 
 CreateConVar("randomat_crowbar_damage", 2.5, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Damage multiplier for the crowbar")
 CreateConVar("randomat_crowbar_push", 20, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Push force multiplier for the crowbar")

@@ -3,6 +3,7 @@ local EVENT = {}
 
 EVENT.Title = "Total Mayhem"
 EVENT.id = "mayhem"
+EVENT.Desc = "Players explode on death"
 
 function EVENT:Begin()
 

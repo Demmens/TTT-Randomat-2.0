@@ -4,6 +4,7 @@ CreateConVar("randomat_fov_scale", 1.5, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Scale of
 
 EVENT.Title = "Quake Pro"
 EVENT.id = "fov"
+EVENT.Desc = "Players have their FOV increased"
 
 function EVENT:Begin()
 	StartingPlys = {}

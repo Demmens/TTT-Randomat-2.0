@@ -5,6 +5,7 @@ CreateConVar("randomat_lifesteal_cap", 0, {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Sets t
 
 EVENT.Title = "Gaining life for killing people? Is it really worth it..."
 EVENT.id = "lifesteal"
+EVENT.Desc = "Killing a player increases your health"
 
 function EVENT:Begin()
 	hook.Add("PlayerDeath","RdmtLifestealHook" function(victim, inflictor, attacker)

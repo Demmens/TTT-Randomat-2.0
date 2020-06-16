@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "SHUT UP!"
 EVENT.id = "shutup"
+EVENT.Desc = "All game sounds are muted"
 
 function EVENT:Begin()
 	timer.Create("RandomatDeafDelay", 1, 1, function()

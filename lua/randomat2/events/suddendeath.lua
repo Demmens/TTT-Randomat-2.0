@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Sudden Death!"
 EVENT.id = "suddendeath"
+EVENT.Desc = "All players are reduced to 1hp"
 
 function EVENT:Begin()
 	timer.Create("suddendeathtimer", 1, 0, function()

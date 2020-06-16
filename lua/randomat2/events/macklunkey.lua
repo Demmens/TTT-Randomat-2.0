@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Who shot first?"
 EVENT.id = "macklunkey"
+EVENT.Desc = "Every player has their gun linked to another player. When one shoots, so does the other."
 
 function EVENT:Begin()
 ----------Setup

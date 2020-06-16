@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Infinite Credits for everyone!"
 EVENT.id = "credits"
+EVENT.Desc = "All players with buy menus have infinite credits"
 
 function EVENT:Begin()
 	timer.Create("GiveCredsTimer", 0, 0, function() 

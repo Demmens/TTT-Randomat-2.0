@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Taking Inventory"
 EVENT.id = "inventory"
+EVENT.Desc = "Periodically swap the inventories of random players"
 
 CreateConVar("randomat_inventory_timer", 15, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Time between inventory swaps")
 

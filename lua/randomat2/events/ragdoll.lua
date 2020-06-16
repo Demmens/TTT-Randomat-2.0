@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Bad Trip"
 EVENT.id = "ragdoll"
+EVENT.Desc = "Players ragdoll while in the air (CAUTION: BUGGY)"
 
 local t = {start=nil,endpos=nil,mask=MASK_PLAYERSOLID,filter=nil}
 local ply = nil

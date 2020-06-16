@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "What did I find in my pocket?"
 EVENT.id = "pocket"
+EVENT.Desc = "All players are given a random buy menu item"
 
 function EVENT:Begin()
   timer.Simple(0.1, function()

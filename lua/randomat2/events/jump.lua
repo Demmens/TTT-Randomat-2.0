@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "You can only jump once."
 EVENT.id = "jump"
+EVENT.Desc = "Attempting to jump more than once will kill you"
 
 local ROLE_JESTER = ROLE_JESTER or false
 

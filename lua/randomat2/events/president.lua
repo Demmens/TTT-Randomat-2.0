@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Get Down Mr President!"
 EVENT.id = "president"
+EVENT.Desc = "The detective is given more health, but if they die, the innocents lose"
 
 CreateConVar("randomat_president_bonushealth", 100, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Extra health gained by the detective")
 

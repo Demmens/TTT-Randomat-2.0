@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "No one can hide from my sight"
 EVENT.id = "wallhack"
+EVENT.Desc = "All players are visible through walls"
 
 util.AddNetworkString("haloeventtrigger")
 util.AddNetworkString("haloeventend")

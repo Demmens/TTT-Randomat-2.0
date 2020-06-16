@@ -2,6 +2,7 @@ local EVENT = {}
 
 EVENT.Title = "Can't stop, won't stop."
 EVENT.id = "cantstop"
+EVENT.Desc = "Players cannot stop moving forward"
 
 CreateConVar("randomat_cantstop_disableback", 1, {FCVAR_NOTIFY, FCVAR_ARCHIVE}, "Disables the \"s\" key")
 
