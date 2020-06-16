@@ -11,7 +11,7 @@ concommand.Add("ttt_randomat_safetrigger", function(ply, cc , arg)
 	local cmd = arg[1]
 	if Randomat.Events[cmd] ~= nil then
 		local event = Randomat.Events[cmd]
-		if event:Condition() and event:Enabled() then
+		if event:Condition() then
 			local index = #Randomat.ActiveEvents + 1
 			Randomat.ActiveEvents[index] = Randomat.Events[cmd]
 
@@ -101,6 +101,7 @@ function Randomat:register(tbl)
 	Randomat.Events[id] = tbl
 
 	CreateConVar("ttt_randomat_"..id, 1, {FCVAR_ARCHIVE, FCVAR_NOTIFY})
+	CreateConVar("randomat_"..id.."_hint", 0, {FCVAR_ARCHIVE, FCVAR_NOTIFY})
 end
 
 function Randomat:unregister(id)
@@ -139,6 +140,7 @@ function Randomat:TriggerRandomEvent(ply)
 
 	Randomat:EventNotify(Randomat.ActiveEvents[index].Title)
 	Randomat.ActiveEvents[index]:Begin()
+	
 end
 
 function Randomat:ReturnRandomEvent(ply)
